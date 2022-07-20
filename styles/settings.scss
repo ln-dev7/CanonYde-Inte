@@ -1,16 +1,32 @@
-// Google font
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;500;600;700;800&display=swap');
+// font-family: 'Epilogue', sans-serif;
+
+@font-face{
+  font-family: 'BigNoodleTitling';
+  src: url('../fonts/big_noodle_titling.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 
 // Couleurs
+$yellow: #FED018;
+$green: #037961;
+$greenDark: #14532D;
+$red: #CE1127;
+$gray: #A1A1AA;
+$black: #27272A;
 
 *,
 ::before,
 ::after {
   box-sizing: border-box;
-  font-family: sans-serif;
-  color: #000;
+  font-family: 'BigNoodleTitling', sans-serif;
+  color: $black;
   font-weight: 300;
   margin: 0;
   padding: 0;
+  font-size: 16px;
   scroll-behavior: smooth;
 }
 
