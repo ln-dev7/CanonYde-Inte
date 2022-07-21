@@ -7,6 +7,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  @media screen and (max-width: 600px) {
+    background-position: 25% 0;
+  }
   .xl {
     position: relative;
     width: 100%;
