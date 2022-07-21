@@ -40,7 +40,7 @@ li {
 }
 
 p{
-  font-family: 'Epilogue', sans-serif
+  font-family: 'Epilogue', sans-serif;
 }
 
 img{
@@ -72,6 +72,7 @@ html, body {
     color: $green;
     font-size: 1.5rem;
     letter-spacing: 3px;
+    font-family: 'Epilogue', sans-serif;
   }
   &.loaded{
     opacity: 0;
